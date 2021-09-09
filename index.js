@@ -11,9 +11,9 @@ const environment = require('./helpers/environments');
 const app = {};
 
 // configuration
-// app.config = {
-//     port: 3000,
-// };
+app.config = {
+    port: 3000,
+};
 
 // create server
 app.createServer = () => {
